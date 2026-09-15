@@ -1,457 +1,461 @@
 year,series,value
-1910,Hot daily highs,0.066
-1910,Hot daily lows,0.016
-1910,Hot daily highs (smoothed),0.065242188
-1910,Hot daily lows (smoothed),0.016410156
-1911,Hot daily highs,0.08
-1911,Hot daily lows,0.023
-1911,Hot daily highs (smoothed),0.067644531
-1911,Hot daily lows (smoothed),0.017984375
-1912,Hot daily highs,0.004
+1910,Hot daily highs,6.4000000000000001E-2
+1910,Hot daily highs (smoothed),6.3417968750000012E-2
+1910,Hot daily lows,1.4999999999999999E-2
+1910,Hot daily lows (smoothed),1.5066406250000003E-2
+1911,Hot daily highs,7.8E-2
+1911,Hot daily highs (smoothed),6.6117187499999994E-2
+1911,Hot daily lows,0.02
+1911,Hot daily lows (smoothed),1.6535156249999999E-2
+1912,Hot daily highs,3.0000000000000001E-3
+1912,Hot daily highs (smoothed),7.5476562500000011E-2
 1912,Hot daily lows,0
-1912,Hot daily highs (smoothed),0.076617188
-1912,Hot daily lows (smoothed),0.02371875
+1912,Hot daily lows (smoothed),2.21484375E-2
 1913,Hot daily highs,0.152
-1913,Hot daily lows,0.026
-1913,Hot daily highs (smoothed),0.0848125
-1913,Hot daily lows (smoothed),0.031789063
-1914,Hot daily highs,0.136
-1914,Hot daily lows,0.097
-1914,Hot daily highs (smoothed),0.078863281
-1914,Hot daily lows (smoothed),0.034363281
-1915,Hot daily highs,0.011
-1915,Hot daily lows,0.002
-1915,Hot daily highs (smoothed),0.062183594
-1915,Hot daily lows (smoothed),0.028339844
-1916,Hot daily highs,0.004
-1916,Hot daily lows,0.004
-1916,Hot daily highs (smoothed),0.0563125
-1916,Hot daily lows (smoothed),0.021910156
-1917,Hot daily highs,0.058
-1917,Hot daily lows,0.01
-1917,Hot daily highs (smoothed),0.070898438
-1917,Hot daily lows (smoothed),0.023660156
-1918,Hot daily highs,0.147
-1918,Hot daily lows,0.047
-1918,Hot daily highs (smoothed),0.089523438
-1918,Hot daily lows (smoothed),0.03315625
-1919,Hot daily highs,0.141
-1919,Hot daily lows,0.052
-1919,Hot daily highs (smoothed),0.093707031
-1919,Hot daily lows (smoothed),0.046886719
+1913,Hot daily highs (smoothed),8.3968750000000009E-2
+1913,Hot daily lows,2.5000000000000001E-2
+1913,Hot daily lows (smoothed),3.0023437500000003E-2
+1914,Hot daily highs,0.13500000000000001
+1914,Hot daily highs (smoothed),7.8121093749999995E-2
+1914,Hot daily lows,9.1999999999999998E-2
+1914,Hot daily lows (smoothed),3.2523437499999995E-2
+1915,Hot daily highs,0.01
+1915,Hot daily highs (smoothed),6.1359375000000001E-2
+1915,Hot daily lows,2E-3
+1915,Hot daily lows (smoothed),2.6664062499999999E-2
+1916,Hot daily highs,4.0000000000000001E-3
+1916,Hot daily highs (smoothed),5.5230468749999997E-2
+1916,Hot daily lows,3.0000000000000001E-3
+1916,Hot daily lows (smoothed),2.0339843750000003E-2
+1917,Hot daily highs,5.5999999999999994E-2
+1917,Hot daily highs (smoothed),6.9441406250000004E-2
+1917,Hot daily lows,9.0000000000000011E-3
+1917,Hot daily lows (smoothed),2.18984375E-2
+1918,Hot daily highs,0.14499999999999999
+1918,Hot daily highs (smoothed),8.7804687499999992E-2
+1918,Hot daily lows,4.2999999999999997E-2
+1918,Hot daily lows (smoothed),3.1144531249999996E-2
+1919,Hot daily highs,0.13800000000000001
+1919,Hot daily highs (smoothed),9.2023437499999999E-2
+1919,Hot daily lows,0.05
+1919,Hot daily lows (smoothed),4.4820312499999994E-2
 1920,Hot daily highs,0
-1920,Hot daily lows,0.001
-1920,Hot daily highs (smoothed),0.084179688
-1920,Hot daily lows (smoothed),0.061453125
-1921,Hot daily highs,0.138
-1921,Hot daily lows,0.179
-1921,Hot daily highs (smoothed),0.071
-1921,Hot daily lows (smoothed),0.068074219
-1922,Hot daily highs,0.044
-1922,Hot daily lows,0.041
-1922,Hot daily highs (smoothed),0.060984375
-1922,Hot daily lows (smoothed),0.05915625
-1923,Hot daily highs,0.004
-1923,Hot daily lows,0.021
-1923,Hot daily highs (smoothed),0.059648438
-1923,Hot daily lows (smoothed),0.041261719
-1924,Hot daily highs,0.078
-1924,Hot daily lows,0.01
-1924,Hot daily highs (smoothed),0.066292969
-1924,Hot daily lows (smoothed),0.027667969
-1925,Hot daily highs,0.134
-1925,Hot daily lows,0.035
-1925,Hot daily highs (smoothed),0.067917969
-1925,Hot daily lows (smoothed),0.021640625
-1926,Hot daily highs,0.049
-1926,Hot daily lows,0.023
-1926,Hot daily highs (smoothed),0.055171875
-1926,Hot daily lows (smoothed),0.017933594
-1927,Hot daily highs,0.009
-1927,Hot daily lows,0.001
-1927,Hot daily highs (smoothed),0.040164063
-1927,Hot daily lows (smoothed),0.014648438
-1928,Hot daily highs,0.003
-1928,Hot daily lows,0.014
-1928,Hot daily highs (smoothed),0.046488281
-1928,Hot daily lows (smoothed),0.015804688
-1929,Hot daily highs,0.017
-1929,Hot daily lows,0.007
-1929,Hot daily highs (smoothed),0.082089844
-1929,Hot daily lows (smoothed),0.025550781
-1930,Hot daily highs,0.206
-1930,Hot daily lows,0.028
-1930,Hot daily highs (smoothed),0.128980469
-1930,Hot daily lows (smoothed),0.043515625
-1931,Hot daily highs,0.236
-1931,Hot daily lows,0.107
-1931,Hot daily highs (smoothed),0.167054688
-1931,Hot daily lows (smoothed),0.067300781
-1932,Hot daily highs,0.057
-1932,Hot daily lows,0.044
-1932,Hot daily highs (smoothed),0.197089844
-1932,Hot daily lows (smoothed),0.09703125
-1933,Hot daily highs,0.279
-1933,Hot daily lows,0.104
-1933,Hot daily highs (smoothed),0.224707031
-1933,Hot daily lows (smoothed),0.130445313
-1934,Hot daily highs,0.398
-1934,Hot daily lows,0.309
-1934,Hot daily highs (smoothed),0.242417969
-1934,Hot daily lows (smoothed),0.1580625
-1935,Hot daily highs,0.013
-1935,Hot daily lows,0.014
-1935,Hot daily highs (smoothed),0.241359375
-1935,Hot daily lows (smoothed),0.169898438
-1936,Hot daily highs,0.47
-1936,Hot daily lows,0.326
-1936,Hot daily highs (smoothed),0.217292969
-1936,Hot daily lows (smoothed),0.159175781
-1937,Hot daily highs,0.118
-1937,Hot daily lows,0.119
-1937,Hot daily highs (smoothed),0.171117188
-1937,Hot daily lows (smoothed),0.124292969
-1938,Hot daily highs,0.053
-1938,Hot daily lows,0.03
-1938,Hot daily highs (smoothed),0.120828125
-1938,Hot daily lows (smoothed),0.079132813
-1939,Hot daily highs,0.038
-1939,Hot daily lows,0.011
-1939,Hot daily highs (smoothed),0.088554688
-1939,Hot daily lows (smoothed),0.047800781
-1940,Hot daily highs,0.17
-1940,Hot daily lows,0.025
-1940,Hot daily highs (smoothed),0.0746875
-1940,Hot daily lows (smoothed),0.041191406
-1941,Hot daily highs,0.007
-1941,Hot daily lows,0.077
-1941,Hot daily highs (smoothed),0.0704375
-1941,Hot daily lows (smoothed),0.050929688
-1942,Hot daily highs,0.008
-1942,Hot daily lows,0.013
-1942,Hot daily highs (smoothed),0.075042969
-1942,Hot daily lows (smoothed),0.061582031
-1943,Hot daily highs,0.185
-1943,Hot daily lows,0.173
-1943,Hot daily highs (smoothed),0.080648438
-1943,Hot daily lows (smoothed),0.059773438
-1944,Hot daily highs,0.098
-1944,Hot daily lows,0.001
-1944,Hot daily highs (smoothed),0.070871094
-1944,Hot daily lows (smoothed),0.042539063
-1945,Hot daily highs,0.004
-1945,Hot daily lows,0.001
-1945,Hot daily highs (smoothed),0.046476563
-1945,Hot daily lows (smoothed),0.021429688
-1946,Hot daily highs,0.006
-1946,Hot daily lows,0.001
-1946,Hot daily highs (smoothed),0.027441406
-1946,Hot daily lows (smoothed),0.011074219
-1947,Hot daily highs,0.006
-1947,Hot daily lows,0.005
-1947,Hot daily highs (smoothed),0.026875
-1947,Hot daily lows (smoothed),0.015703125
-1948,Hot daily highs,0.033
-1948,Hot daily lows,0.003
-1948,Hot daily highs (smoothed),0.039582031
-1948,Hot daily lows (smoothed),0.028175781
+1920,Hot daily highs (smoothed),8.2683593749999992E-2
+1920,Hot daily lows,1E-3
+1920,Hot daily lows (smoothed),5.9414062500000003E-2
+1921,Hot daily highs,0.13699999999999998
+1921,Hot daily highs (smoothed),6.9574218749999986E-2
+1921,Hot daily lows,0.17499999999999999
+1921,Hot daily lows (smoothed),6.604296875E-2
+1922,Hot daily highs,4.0999999999999995E-2
+1922,Hot daily highs (smoothed),5.9472656249999992E-2
+1922,Hot daily lows,3.9E-2
+1922,Hot daily lows (smoothed),5.7226562500000001E-2
+1923,Hot daily highs,4.0000000000000001E-3
+1923,Hot daily highs (smoothed),5.8011718750000003E-2
+1923,Hot daily lows,0.02
+1923,Hot daily lows (smoothed),3.9492187499999998E-2
+1924,Hot daily highs,7.4999999999999997E-2
+1924,Hot daily highs (smoothed),6.456640625E-2
+1924,Hot daily lows,9.0000000000000011E-3
+1924,Hot daily lows (smoothed),2.5921875E-2
+1925,Hot daily highs,0.13300000000000001
+1925,Hot daily highs (smoothed),6.6230468749999993E-2
+1925,Hot daily lows,3.2000000000000001E-2
+1925,Hot daily lows (smoothed),1.9832031250000003E-2
+1926,Hot daily highs,4.5999999999999999E-2
+1926,Hot daily highs (smoothed),5.3753906250000004E-2
+1926,Hot daily lows,2.1000000000000001E-2
+1926,Hot daily lows (smoothed),1.6218750000000001E-2
+1927,Hot daily highs,9.0000000000000011E-3
+1927,Hot daily highs (smoothed),3.9101562499999999E-2
+1927,Hot daily lows,0
+1927,Hot daily lows (smoothed),1.3195312500000002E-2
+1928,Hot daily highs,3.0000000000000001E-3
+1928,Hot daily highs (smoothed),4.5429687499999996E-2
+1928,Hot daily lows,1.3000000000000001E-2
+1928,Hot daily lows (smoothed),1.4500000000000001E-2
+1929,Hot daily highs,1.6E-2
+1929,Hot daily highs (smoothed),8.0386718750000002E-2
+1929,Hot daily lows,6.0000000000000001E-3
+1929,Hot daily lows (smoothed),2.4003906250000002E-2
+1930,Hot daily highs,0.20399999999999999
+1930,Hot daily highs (smoothed),0.12628125000000001
+1930,Hot daily lows,2.7000000000000003E-2
+1930,Hot daily lows (smoothed),4.1332031249999998E-2
+1931,Hot daily highs,0.22800000000000001
+1931,Hot daily highs (smoothed),0.16364453125
+1931,Hot daily lows,0.10199999999999999
+1931,Hot daily lows (smoothed),6.4367187499999992E-2
+1932,Hot daily highs,5.7000000000000002E-2
+1932,Hot daily highs (smoothed),0.19350390624999994
+1932,Hot daily lows,4.0999999999999995E-2
+1932,Hot daily lows (smoothed),9.3523437499999987E-2
+1933,Hot daily highs,0.27399999999999997
+1933,Hot daily highs (smoothed),0.22121484374999997
+1933,Hot daily lows,0.10099999999999999
+1933,Hot daily lows (smoothed),0.12662109375
+1934,Hot daily highs,0.39399999999999996
+1934,Hot daily highs (smoothed),0.23899999999999996
+1934,Hot daily lows,0.30199999999999999
+1934,Hot daily lows (smoothed),0.15410937500000002
+1935,Hot daily highs,1.2E-2
+1935,Hot daily highs (smoothed),0.23795312499999996
+1935,Hot daily lows,1.3999999999999999E-2
+1935,Hot daily lows (smoothed),0.16592187499999997
+1936,Hot daily highs,0.46399999999999997
+1936,Hot daily highs (smoothed),0.21397265624999995
+1936,Hot daily lows,0.31900000000000001
+1936,Hot daily lows (smoothed),0.1553671875
+1937,Hot daily highs,0.115
+1937,Hot daily highs (smoothed),0.16797656250000001
+1937,Hot daily lows,0.115
+1937,Hot daily lows (smoothed),0.12103515625000001
+1938,Hot daily highs,5.2000000000000005E-2
+1938,Hot daily highs (smoothed),0.11762890625000001
+1938,Hot daily lows,2.8999999999999998E-2
+1938,Hot daily lows (smoothed),7.666015625E-2
+1939,Hot daily highs,3.6000000000000004E-2
+1939,Hot daily highs (smoothed),8.4925781250000013E-2
+1939,Hot daily lows,0.01
+1939,Hot daily lows (smoothed),4.5859374999999994E-2
+1940,Hot daily highs,0.16
+1940,Hot daily highs (smoothed),7.0824218750000001E-2
+1940,Hot daily lows,2.3E-2
+1940,Hot daily lows (smoothed),3.9285156250000001E-2
+1941,Hot daily highs,6.0000000000000001E-3
+1941,Hot daily highs (smoothed),6.6964843750000017E-2
+1941,Hot daily lows,7.400000000000001E-2
+1941,Hot daily lows (smoothed),4.8718749999999998E-2
+1942,Hot daily highs,6.9999999999999993E-3
+1942,Hot daily highs (smoothed),7.2179687500000006E-2
+1942,Hot daily lows,1.3000000000000001E-2
+1942,Hot daily lows (smoothed),5.903125E-2
+1943,Hot daily highs,0.18100000000000002
+1943,Hot daily highs (smoothed),7.8187499999999993E-2
+1943,Hot daily lows,0.16600000000000001
+1943,Hot daily lows (smoothed),5.72421875E-2
+1944,Hot daily highs,9.5000000000000001E-2
+1944,Hot daily highs (smoothed),6.8769531249999988E-2
+1944,Hot daily lows,0
+1944,Hot daily lows (smoothed),4.0601562500000007E-2
+1945,Hot daily highs,4.0000000000000001E-3
+1945,Hot daily highs (smoothed),4.484765625E-2
+1945,Hot daily lows,1E-3
+1945,Hot daily lows (smoothed),2.0304687500000005E-2
+1946,Hot daily highs,4.0000000000000001E-3
+1946,Hot daily highs (smoothed),2.6218750000000006E-2
+1946,Hot daily lows,1E-3
+1946,Hot daily lows (smoothed),1.0371093750000001E-2
+1947,Hot daily highs,6.0000000000000001E-3
+1947,Hot daily highs (smoothed),2.5875000000000002E-2
+1947,Hot daily lows,4.0000000000000001E-3
+1947,Hot daily lows (smoothed),1.4812499999999999E-2
+1948,Hot daily highs,3.1E-2
+1948,Hot daily highs (smoothed),3.8667968750000004E-2
+1948,Hot daily lows,3.0000000000000001E-3
+1948,Hot daily lows (smoothed),2.6749999999999999E-2
 1949,Hot daily highs,0.111
-1949,Hot daily lows,0.115
-1949,Hot daily highs (smoothed),0.057757813
-1949,Hot daily lows (smoothed),0.038199219
-1950,Hot daily highs,0.001
+1949,Hot daily highs (smoothed),5.6703125E-2
+1949,Hot daily lows,0.11
+1949,Hot daily lows (smoothed),3.6253906250000002E-2
+1950,Hot daily highs,1E-3
+1950,Hot daily highs (smoothed),8.4914062499999998E-2
 1950,Hot daily lows,0
-1950,Hot daily highs (smoothed),0.086539063
-1950,Hot daily lows (smoothed),0.043738281
-1951,Hot daily highs,0.079
-1951,Hot daily lows,0.017
-1951,Hot daily highs (smoothed),0.132265625
-1951,Hot daily lows (smoothed),0.05259375
-1952,Hot daily highs,0.313
-1952,Hot daily lows,0.11
-1952,Hot daily highs (smoothed),0.180339844
-1952,Hot daily lows (smoothed),0.068871094
-1953,Hot daily highs,0.176
-1953,Hot daily lows,0.056
-1953,Hot daily highs (smoothed),0.202523438
-1953,Hot daily lows (smoothed),0.0843125
-1954,Hot daily highs,0.294
-1954,Hot daily lows,0.152
-1954,Hot daily highs (smoothed),0.185199219
-1954,Hot daily lows (smoothed),0.086300781
-1955,Hot daily highs,0.088
-1955,Hot daily lows,0.081
-1955,Hot daily highs (smoothed),0.140019531
-1955,Hot daily lows (smoothed),0.071613281
-1956,Hot daily highs,0.092
-1956,Hot daily lows,0.016
-1956,Hot daily highs (smoothed),0.092085938
-1956,Hot daily lows (smoothed),0.051488281
-1957,Hot daily highs,0.003
-1957,Hot daily lows,0.005
-1957,Hot daily highs (smoothed),0.063199219
-1957,Hot daily lows (smoothed),0.039945313
-1958,Hot daily highs,0.05
-1958,Hot daily lows,0.077
-1958,Hot daily highs (smoothed),0.06121875
-1958,Hot daily lows (smoothed),0.039539063
-1959,Hot daily highs,0.074
-1959,Hot daily lows,0.034
-1959,Hot daily highs (smoothed),0.078289063
-1959,Hot daily lows (smoothed),0.0450625
-1960,Hot daily highs,0.093
-1960,Hot daily lows,0.003
-1960,Hot daily highs (smoothed),0.094800781
-1960,Hot daily lows (smoothed),0.052371094
-1961,Hot daily highs,0.209
-1961,Hot daily lows,0.152
-1961,Hot daily highs (smoothed),0.090972656
-1961,Hot daily lows (smoothed),0.056160156
-1962,Hot daily highs,0.01
+1950,Hot daily lows (smoothed),4.1382812499999998E-2
+1951,Hot daily highs,7.4999999999999997E-2
+1951,Hot daily highs (smoothed),0.12973046875000002
+1951,Hot daily lows,1.3999999999999999E-2
+1951,Hot daily lows (smoothed),4.98046875E-2
+1952,Hot daily highs,0.31
+1952,Hot daily highs (smoothed),0.17706250000000001
+1952,Hot daily lows,0.106
+1952,Hot daily lows (smoothed),6.5656249999999999E-2
+1953,Hot daily highs,0.17
+1953,Hot daily highs (smoothed),0.19914843750000003
+1953,Hot daily lows,5.2000000000000005E-2
+1953,Hot daily lows (smoothed),8.0917968749999986E-2
+1954,Hot daily highs,0.29199999999999998
+1954,Hot daily highs (smoothed),0.18232421874999999
+1954,Hot daily lows,0.14899999999999999
+1954,Hot daily lows (smoothed),8.3074218749999998E-2
+1955,Hot daily highs,8.6999999999999994E-2
+1955,Hot daily highs (smoothed),0.13775390625000003
+1955,Hot daily lows,7.8E-2
+1955,Hot daily lows (smoothed),6.8761718750000006E-2
+1956,Hot daily highs,8.900000000000001E-2
+1956,Hot daily highs (smoothed),9.0089843749999995E-2
+1956,Hot daily lows,1.3000000000000001E-2
+1956,Hot daily lows (smoothed),4.8949218750000002E-2
+1957,Hot daily highs,3.0000000000000001E-3
+1957,Hot daily highs (smoothed),6.0921875000000014E-2
+1957,Hot daily lows,5.0000000000000001E-3
+1957,Hot daily lows (smoothed),3.740234374999999E-2
+1958,Hot daily highs,4.5999999999999999E-2
+1958,Hot daily highs (smoothed),5.8066406250000001E-2
+1958,Hot daily lows,7.2999999999999995E-2
+1958,Hot daily lows (smoothed),3.6699218749999998E-2
+1959,Hot daily highs,7.2000000000000008E-2
+1959,Hot daily highs (smoothed),7.400000000000001E-2
+1959,Hot daily lows,2.8999999999999998E-2
+1959,Hot daily lows (smoothed),4.194140625E-2
+1960,Hot daily highs,8.3000000000000004E-2
+1960,Hot daily highs (smoothed),8.9941406249999994E-2
+1960,Hot daily lows,3.0000000000000001E-3
+1960,Hot daily lows (smoothed),4.923437499999999E-2
+1961,Hot daily highs,0.20399999999999999
+1961,Hot daily highs (smoothed),8.6714843749999992E-2
+1961,Hot daily lows,0.14499999999999999
+1961,Hot daily lows (smoothed),5.3355468749999989E-2
+1962,Hot daily highs,9.0000000000000011E-3
+1962,Hot daily highs (smoothed),6.1726562500000005E-2
 1962,Hot daily lows,0
-1962,Hot daily highs (smoothed),0.064597656
-1962,Hot daily lows (smoothed),0.05059375
-1963,Hot daily highs,0.014
-1963,Hot daily lows,0.071
-1963,Hot daily highs (smoothed),0.033539063
-1963,Hot daily lows (smoothed),0.036664063
-1964,Hot daily highs,0.003
-1964,Hot daily lows,0.001
-1964,Hot daily highs (smoothed),0.015699219
-1964,Hot daily lows (smoothed),0.021582031
+1962,Hot daily lows (smoothed),4.8449218750000002E-2
+1963,Hot daily highs,1.3000000000000001E-2
+1963,Hot daily highs (smoothed),3.192578125E-2
+1963,Hot daily lows,6.9000000000000006E-2
+1963,Hot daily lows (smoothed),3.5289062499999996E-2
+1964,Hot daily highs,2E-3
+1964,Hot daily highs (smoothed),1.476171875E-2
+1964,Hot daily lows,1E-3
+1964,Hot daily lows (smoothed),2.0722656250000002E-2
 1965,Hot daily highs,0
+1965,Hot daily highs (smoothed),1.2917968750000001E-2
 1965,Hot daily lows,0
-1965,Hot daily highs (smoothed),0.013628906
-1965,Hot daily lows (smoothed),0.011664063
-1966,Hot daily highs,0.019
-1966,Hot daily lows,0.003
-1966,Hot daily highs (smoothed),0.018753906
-1966,Hot daily lows (smoothed),0.008199219
-1967,Hot daily highs,0.056
-1967,Hot daily lows,0.022
-1967,Hot daily highs (smoothed),0.022523438
-1967,Hot daily lows (smoothed),0.008054688
+1965,Hot daily lows (smoothed),1.08671875E-2
+1966,Hot daily highs,1.8000000000000002E-2
+1966,Hot daily highs (smoothed),1.8074218750000003E-2
+1966,Hot daily lows,2E-3
+1966,Hot daily lows (smoothed),7.1679687500000007E-3
+1967,Hot daily highs,5.5E-2
+1967,Hot daily highs (smoothed),2.1792968750000002E-2
+1967,Hot daily lows,1.9E-2
+1967,Hot daily lows (smoothed),6.8320312500000013E-3
 1968,Hot daily highs,0
+1968,Hot daily highs (smoothed),2.2328125000000001E-2
 1968,Hot daily lows,0
-1968,Hot daily highs (smoothed),0.023207031
-1968,Hot daily lows (smoothed),0.007984375
-1969,Hot daily highs,0.008
-1969,Hot daily lows,0.006
-1969,Hot daily highs (smoothed),0.023242188
-1969,Hot daily lows (smoothed),0.007632813
-1970,Hot daily highs,0.065
-1970,Hot daily lows,0.013
-1970,Hot daily highs (smoothed),0.022007813
-1970,Hot daily lows (smoothed),0.008363281
+1968,Hot daily lows (smoothed),6.7499999999999999E-3
+1969,Hot daily highs,6.9999999999999993E-3
+1969,Hot daily highs (smoothed),2.2167968749999999E-2
+1969,Hot daily lows,5.0000000000000001E-3
+1969,Hot daily lows (smoothed),6.4375000000000014E-3
+1970,Hot daily highs,6.2E-2
+1970,Hot daily highs (smoothed),2.090234375E-2
+1970,Hot daily lows,1.1000000000000001E-2
+1970,Hot daily lows (smoothed),7.1562500000000012E-3
 1971,Hot daily highs,0
-1971,Hot daily lows,0.003
-1971,Hot daily highs (smoothed),0.017320313
-1971,Hot daily lows (smoothed),0.011414063
-1972,Hot daily highs,0.002
-1972,Hot daily lows,0.003
-1972,Hot daily highs (smoothed),0.011394531
-1972,Hot daily lows (smoothed),0.015839844
-1973,Hot daily highs,0.014
-1973,Hot daily lows,0.058
-1973,Hot daily highs (smoothed),0.008871094
-1973,Hot daily lows (smoothed),0.017828125
-1974,Hot daily highs,0.001
+1971,Hot daily highs (smoothed),1.6441406249999999E-2
+1971,Hot daily lows,2E-3
+1971,Hot daily lows (smoothed),1.0144531250000002E-2
+1972,Hot daily highs,2E-3
+1972,Hot daily highs (smoothed),1.081640625E-2
+1972,Hot daily lows,3.0000000000000001E-3
+1972,Hot daily lows (smoothed),1.4496093750000001E-2
+1973,Hot daily highs,1.3000000000000001E-2
+1973,Hot daily highs (smoothed),8.4921874999999997E-3
+1973,Hot daily lows,5.4000000000000006E-2
+1973,Hot daily lows (smoothed),1.6531250000000001E-2
+1974,Hot daily highs,1E-3
+1974,Hot daily highs (smoothed),1.1710937500000001E-2
 1974,Hot daily lows,0
-1974,Hot daily highs (smoothed),0.012011719
-1974,Hot daily lows (smoothed),0.01615625
-1975,Hot daily highs,0.002
-1975,Hot daily lows,0.002
-1975,Hot daily highs (smoothed),0.019164063
-1975,Hot daily lows (smoothed),0.015839844
-1976,Hot daily highs,0.065
-1976,Hot daily lows,0.001
-1976,Hot daily highs (smoothed),0.025917969
-1976,Hot daily lows (smoothed),0.0205
-1977,Hot daily highs,0.019
-1977,Hot daily lows,0.078
-1977,Hot daily highs (smoothed),0.033167969
-1977,Hot daily lows (smoothed),0.027453125
-1978,Hot daily highs,0.016
-1978,Hot daily lows,0.003
-1978,Hot daily highs (smoothed),0.051382813
-1978,Hot daily lows (smoothed),0.035828125
-1979,Hot daily highs,0.002
+1974,Hot daily lows (smoothed),1.5019531250000002E-2
+1975,Hot daily highs,2E-3
+1975,Hot daily highs (smoothed),1.87734375E-2
+1975,Hot daily lows,2E-3
+1975,Hot daily lows (smoothed),1.4601562500000002E-2
+1976,Hot daily highs,6.5000000000000002E-2
+1976,Hot daily highs (smoothed),2.5210937499999999E-2
+1976,Hot daily lows,1E-3
+1976,Hot daily lows (smoothed),1.87109375E-2
+1977,Hot daily highs,1.7000000000000001E-2
+1977,Hot daily highs (smoothed),3.2000000000000001E-2
+1977,Hot daily lows,7.0999999999999994E-2
+1977,Hot daily lows (smoothed),2.5093750000000001E-2
+1978,Hot daily highs,1.3999999999999999E-2
+1978,Hot daily highs (smoothed),4.9664062499999995E-2
+1978,Hot daily lows,2E-3
+1978,Hot daily lows (smoothed),3.3179687499999999E-2
+1979,Hot daily highs,2E-3
+1979,Hot daily highs (smoothed),7.9988281249999987E-2
 1979,Hot daily lows,0
-1979,Hot daily highs (smoothed),0.08240625
-1979,Hot daily lows (smoothed),0.047980469
-1980,Hot daily highs,0.303
-1980,Hot daily lows,0.147
-1980,Hot daily highs (smoothed),0.105519531
-1980,Hot daily lows (smoothed),0.060105469
-1981,Hot daily highs,0.067
-1981,Hot daily lows,0.054
-1981,Hot daily highs (smoothed),0.102976563
-1981,Hot daily lows (smoothed),0.066
-1982,Hot daily highs,0.001
-1982,Hot daily lows,0.002
-1982,Hot daily highs (smoothed),0.084167969
-1982,Hot daily lows (smoothed),0.065972656
-1983,Hot daily highs,0.154
-1983,Hot daily lows,0.161
-1983,Hot daily highs (smoothed),0.065449219
-1983,Hot daily lows (smoothed),0.060261719
-1984,Hot daily highs,0.014
-1984,Hot daily lows,0.02
-1984,Hot daily highs (smoothed),0.050992188
-1984,Hot daily lows (smoothed),0.047921875
-1985,Hot daily highs,0.021
-1985,Hot daily lows,0.002
-1985,Hot daily highs (smoothed),0.047203125
-1985,Hot daily lows (smoothed),0.038488281
-1986,Hot daily highs,0.025
-1986,Hot daily lows,0.014
-1986,Hot daily highs (smoothed),0.065863281
-1986,Hot daily lows (smoothed),0.044640625
-1987,Hot daily highs,0.045
-1987,Hot daily lows,0.069
-1987,Hot daily highs (smoothed),0.09846875
-1987,Hot daily lows (smoothed),0.061007813
-1988,Hot daily highs,0.347
-1988,Hot daily lows,0.161
-1988,Hot daily highs (smoothed),0.112710938
-1988,Hot daily lows (smoothed),0.069125
-1989,Hot daily highs,0.007
-1989,Hot daily lows,0.011
-1989,Hot daily highs (smoothed),0.091570313
-1989,Hot daily lows (smoothed),0.063480469
-1990,Hot daily highs,0.018
-1990,Hot daily lows,0.026
-1990,Hot daily highs (smoothed),0.056558594
-1990,Hot daily lows (smoothed),0.055804688
-1991,Hot daily highs,0.032
-1991,Hot daily lows,0.095
-1991,Hot daily highs (smoothed),0.039617188
-1991,Hot daily lows (smoothed),0.055789063
-1992,Hot daily highs,0.01
-1992,Hot daily lows,0.03
-1992,Hot daily highs (smoothed),0.051160156
-1992,Hot daily lows (smoothed),0.064480469
-1993,Hot daily highs,0.055
-1993,Hot daily lows,0.063
-1993,Hot daily highs (smoothed),0.0785625
-1993,Hot daily lows (smoothed),0.080695313
-1994,Hot daily highs,0.214
-1994,Hot daily lows,0.112
-1994,Hot daily highs (smoothed),0.099230469
-1994,Hot daily lows (smoothed),0.097867188
-1995,Hot daily highs,0.065
-1995,Hot daily lows,0.171
-1995,Hot daily highs (smoothed),0.099648438
-1995,Hot daily lows (smoothed),0.105324219
-1996,Hot daily highs,0.106
-1996,Hot daily lows,0.078
-1996,Hot daily highs (smoothed),0.088230469
-1996,Hot daily lows (smoothed),0.103859375
-1997,Hot daily highs,0.003
-1997,Hot daily lows,0.005
-1997,Hot daily highs (smoothed),0.082246094
-1997,Hot daily lows (smoothed),0.103445313
-1998,Hot daily highs,0.157
-1998,Hot daily lows,0.26
-1998,Hot daily highs (smoothed),0.087421875
-1998,Hot daily lows (smoothed),0.103699219
-1999,Hot daily highs,0.048
-1999,Hot daily lows,0.034
-1999,Hot daily highs (smoothed),0.100769531
-1999,Hot daily lows (smoothed),0.10121875
-2000,Hot daily highs,0.137
-2000,Hot daily lows,0.05
-2000,Hot daily highs (smoothed),0.123320313
-2000,Hot daily lows (smoothed),0.108527344
-2001,Hot daily highs,0.09
-2001,Hot daily lows,0.105
-2001,Hot daily highs (smoothed),0.153023438
-2001,Hot daily lows (smoothed),0.135367188
-2002,Hot daily highs,0.276
-2002,Hot daily lows,0.259
-2002,Hot daily highs (smoothed),0.171824219
-2002,Hot daily lows (smoothed),0.165488281
-2003,Hot daily highs,0.248
-2003,Hot daily lows,0.225
-2003,Hot daily highs (smoothed),0.164757813
-2003,Hot daily lows (smoothed),0.181695313
-2004,Hot daily highs,0.014
-2004,Hot daily lows,0.049
-2004,Hot daily highs (smoothed),0.1496875
-2004,Hot daily lows (smoothed),0.193824219
-2005,Hot daily highs,0.087
-2005,Hot daily lows,0.271
-2005,Hot daily highs (smoothed),0.155402344
-2005,Hot daily lows (smoothed),0.21259375
-2006,Hot daily highs,0.274
-2006,Hot daily lows,0.283
-2006,Hot daily highs (smoothed),0.172371094
-2006,Hot daily lows (smoothed),0.220070313
-2007,Hot daily highs,0.286
-2007,Hot daily lows,0.29
-2007,Hot daily highs (smoothed),0.16653125
-2007,Hot daily lows (smoothed),0.203277344
-2008,Hot daily highs,0.035
-2008,Hot daily lows,0.027
-2008,Hot daily highs (smoothed),0.141542969
-2008,Hot daily lows (smoothed),0.197246094
-2009,Hot daily highs,0.035
-2009,Hot daily lows,0.049
-2009,Hot daily highs (smoothed),0.143445313
-2009,Hot daily lows (smoothed),0.24540625
-2010,Hot daily highs,0.147
-2010,Hot daily lows,0.533
-2010,Hot daily highs (smoothed),0.19409375
-2010,Hot daily lows (smoothed),0.324730469
-2011,Hot daily highs,0.356
-2011,Hot daily lows,0.538
-2011,Hot daily highs (smoothed),0.251355469
-2011,Hot daily lows (smoothed),0.36459375
-2012,Hot daily highs,0.463
-2012,Hot daily lows,0.252
-2012,Hot daily highs (smoothed),0.255667969
-2012,Hot daily lows (smoothed),0.339707031
-2013,Hot daily highs,0.121
-2013,Hot daily lows,0.299
-2013,Hot daily highs (smoothed),0.204597656
-2013,Hot daily lows (smoothed),0.296335938
-2014,Hot daily highs,0.028
-2014,Hot daily lows,0.142
-2014,Hot daily highs (smoothed),0.155320313
-2014,Hot daily lows (smoothed),0.288496094
-2015,Hot daily highs,0.109
-2015,Hot daily lows,0.33
-2015,Hot daily highs (smoothed),0.15234375
-2015,Hot daily lows (smoothed),0.32328125
-2016,Hot daily highs,0.242
-2016,Hot daily lows,0.494
-2016,Hot daily highs (smoothed),0.1818125
-2016,Hot daily lows (smoothed),0.367929688
-2017,Hot daily highs,0.244
-2017,Hot daily lows,0.299
-2017,Hot daily highs (smoothed),0.205824219
-2017,Hot daily lows (smoothed),0.391070313
-2018,Hot daily highs,0.235
-2018,Hot daily lows,0.574
-2018,Hot daily highs (smoothed),0.216445313
-2018,Hot daily lows (smoothed),0.395699219
-2019,Hot daily highs,0.09
-2019,Hot daily lows,0.154
-2019,Hot daily highs (smoothed),0.235777344
-2019,Hot daily lows (smoothed),0.41578125
-2020,Hot daily highs,0.321
-2020,Hot daily lows,0.462
-2020,Hot daily highs (smoothed),0.270445313
-2020,Hot daily lows (smoothed),0.469125
-2021,Hot daily highs,0.414
-2021,Hot daily lows,0.693
-2021,Hot daily highs (smoothed),0.293742188
-2021,Hot daily lows (smoothed),0.517917969
-2022,Hot daily highs,0.28
-2022,Hot daily lows,0.657
-2022,Hot daily highs (smoothed),0.283707031
-2022,Hot daily lows (smoothed),0.508710938
-2023,Hot daily highs,0.214
-2023,Hot daily lows,0.33
-2023,Hot daily highs (smoothed),0.253171875
-2023,Hot daily lows (smoothed),0.444671875
+1979,Hot daily lows (smoothed),4.5019531249999994E-2
+1980,Hot daily highs,0.29799999999999999
+1980,Hot daily highs (smoothed),0.10246484374999998
+1980,Hot daily lows,0.14099999999999999
+1980,Hot daily lows (smoothed),5.6757812499999998E-2
+1981,Hot daily highs,6.0999999999999999E-2
+1981,Hot daily highs (smoothed),9.982812499999999E-2
+1981,Hot daily lows,4.8000000000000001E-2
+1981,Hot daily lows (smoothed),6.2738281249999986E-2
+1982,Hot daily highs,1E-3
+1982,Hot daily highs (smoothed),8.1515624999999994E-2
+1982,Hot daily lows,2E-3
+1982,Hot daily lows (smoothed),6.344531249999999E-2
+1983,Hot daily highs,0.151
+1983,Hot daily highs (smoothed),6.3339843749999999E-2
+1983,Hot daily lows,0.159
+1983,Hot daily lows (smoothed),5.8574218749999997E-2
+1984,Hot daily highs,1.3999999999999999E-2
+1984,Hot daily highs (smoothed),4.9062500000000002E-2
+1984,Hot daily lows,1.9E-2
+1984,Hot daily lows (smoothed),4.663671875E-2
+1985,Hot daily highs,1.7000000000000001E-2
+1985,Hot daily highs (smoothed),4.5160156250000007E-2
+1985,Hot daily lows,2E-3
+1985,Hot daily lows (smoothed),3.6992187499999996E-2
+1986,Hot daily highs,2.4E-2
+1986,Hot daily highs (smoothed),6.3601562499999986E-2
+1986,Hot daily lows,1.2E-2
+1986,Hot daily lows (smoothed),4.2453125000000001E-2
+1987,Hot daily highs,4.2999999999999997E-2
+1987,Hot daily highs (smoothed),9.6015624999999993E-2
+1987,Hot daily lows,6.5000000000000002E-2
+1987,Hot daily lows (smoothed),5.8097656250000004E-2
+1988,Hot daily highs,0.34200000000000003
+1988,Hot daily highs (smoothed),0.11030859375
+1988,Hot daily lows,0.156
+1988,Hot daily lows (smoothed),6.5894531250000013E-2
+1989,Hot daily highs,6.0000000000000001E-3
+1989,Hot daily highs (smoothed),8.9570312500000013E-2
+1989,Hot daily lows,0.01
+1989,Hot daily lows (smoothed),6.0265624999999996E-2
+1990,Hot daily highs,1.7000000000000001E-2
+1990,Hot daily highs (smoothed),5.5019531250000003E-2
+1990,Hot daily lows,2.2000000000000002E-2
+1990,Hot daily lows (smoothed),5.2519531250000008E-2
+1991,Hot daily highs,3.1E-2
+1991,Hot daily highs (smoothed),3.8062500000000006E-2
+1991,Hot daily lows,9.1999999999999998E-2
+1991,Hot daily lows (smoothed),5.2035156249999999E-2
+1992,Hot daily highs,9.0000000000000011E-3
+1992,Hot daily highs (smoothed),4.8765625E-2
+1992,Hot daily lows,2.6000000000000002E-2
+1992,Hot daily lows (smoothed),5.9804687500000002E-2
+1993,Hot daily highs,5.2999999999999999E-2
+1993,Hot daily highs (smoothed),7.4714843749999996E-2
+1993,Hot daily lows,5.7999999999999996E-2
+1993,Hot daily lows (smoothed),7.4886718749999984E-2
+1994,Hot daily highs,0.20300000000000001
+1994,Hot daily highs (smoothed),9.4097656249999995E-2
+1994,Hot daily lows,0.10099999999999999
+1994,Hot daily lows (smoothed),9.1218749999999987E-2
+1995,Hot daily highs,6.3E-2
+1995,Hot daily highs (smoothed),9.4152343750000006E-2
+1995,Hot daily lows,0.16800000000000001
+1995,Hot daily lows (smoothed),9.8519531250000028E-2
+1996,Hot daily highs,9.6000000000000002E-2
+1996,Hot daily highs (smoothed),8.335156249999999E-2
+1996,Hot daily lows,6.6000000000000003E-2
+1996,Hot daily lows (smoothed),9.7484375000000012E-2
+1997,Hot daily highs,3.0000000000000001E-3
+1997,Hot daily highs (smoothed),7.8203125000000012E-2
+1997,Hot daily lows,5.0000000000000001E-3
+1997,Hot daily lows (smoothed),9.7554687500000001E-2
+1998,Hot daily highs,0.154
+1998,Hot daily highs (smoothed),8.3332031249999994E-2
+1998,Hot daily lows,0.252
+1998,Hot daily lows (smoothed),9.7832031249999993E-2
+1999,Hot daily highs,4.5999999999999999E-2
+1999,Hot daily highs (smoothed),9.5285156250000003E-2
+1999,Hot daily lows,2.8999999999999998E-2
+1999,Hot daily lows (smoothed),9.4792968749999998E-2
+2000,Hot daily highs,0.125
+2000,Hot daily highs (smoothed),0.11585546875000001
+2000,Hot daily lows,4.2000000000000003E-2
+2000,Hot daily lows (smoothed),0.10108203125
+2001,Hot daily highs,8.1000000000000003E-2
+2001,Hot daily highs (smoothed),0.14430078125000001
+2001,Hot daily lows,9.8000000000000004E-2
+2001,Hot daily lows (smoothed),0.12667187500000002
+2002,Hot daily highs,0.26600000000000001
+2002,Hot daily highs (smoothed),0.16328515624999998
+2002,Hot daily lows,0.248
+2002,Hot daily lows (smoothed),0.15595703125000002
+2003,Hot daily highs,0.23800000000000002
+2003,Hot daily highs (smoothed),0.15740625000000003
+2003,Hot daily lows,0.20899999999999999
+2003,Hot daily lows (smoothed),0.17227343750000002
+2004,Hot daily highs,1.3000000000000001E-2
+2004,Hot daily highs (smoothed),0.14310937500000001
+2004,Hot daily lows,4.7E-2
+2004,Hot daily lows (smoothed),0.18467578124999998
+2005,Hot daily highs,8.4000000000000005E-2
+2005,Hot daily highs (smoothed),0.14813671875000001
+2005,Hot daily lows,0.26700000000000002
+2005,Hot daily lows (smoothed),0.20271093749999999
+2006,Hot daily highs,0.25900000000000001
+2006,Hot daily highs (smoothed),0.16382812499999996
+2006,Hot daily lows,0.26100000000000001
+2006,Hot daily lows (smoothed),0.20909374999999997
+2007,Hot daily highs,0.27399999999999997
+2007,Hot daily highs (smoothed),0.15803515625
+2007,Hot daily lows,0.27899999999999997
+2007,Hot daily lows (smoothed),0.19243359374999999
+2008,Hot daily highs,2.8999999999999998E-2
+2008,Hot daily highs (smoothed),0.13478515625000001
+2008,Hot daily lows,2.1000000000000001E-2
+2008,Hot daily lows (smoothed),0.18754296875000001
+2009,Hot daily highs,3.4000000000000002E-2
+2009,Hot daily highs (smoothed),0.13841406250000002
+2009,Hot daily lows,4.2000000000000003E-2
+2009,Hot daily lows (smoothed),0.23611718749999999
+2010,Hot daily highs,0.14400000000000002
+2010,Hot daily highs (smoothed),0.18908984375000004
+2010,Hot daily lows,0.52200000000000002
+2010,Hot daily lows (smoothed),0.31416015624999999
+2011,Hot daily highs,0.35100000000000003
+2011,Hot daily highs (smoothed),0.244796875
+2011,Hot daily lows,0.52800000000000002
+2011,Hot daily lows (smoothed),0.35150390625
+2012,Hot daily highs,0.45
+2012,Hot daily highs (smoothed),0.24756640624999998
+2012,Hot daily lows,0.23399999999999999
+2012,Hot daily lows (smoothed),0.32411718750000001
+2013,Hot daily highs,0.11
+2013,Hot daily highs (smoothed),0.19606640625000002
+2013,Hot daily lows,0.27500000000000002
+2013,Hot daily lows (smoothed),0.2794140625
+2014,Hot daily highs,2.4E-2
+2014,Hot daily highs (smoothed),0.14670703124999998
+2014,Hot daily lows,0.13200000000000001
+2014,Hot daily lows (smoothed),0.27146484374999996
+2015,Hot daily highs,0.10400000000000001
+2015,Hot daily highs (smoothed),0.14265234375000002
+2015,Hot daily lows,0.31
+2015,Hot daily lows (smoothed),0.30653906249999996
+2016,Hot daily highs,0.22399999999999998
+2016,Hot daily highs (smoothed),0.170375
+2016,Hot daily lows,0.47700000000000004
+2016,Hot daily lows (smoothed),0.35127343749999995
+2017,Hot daily highs,0.23100000000000001
+2017,Hot daily highs (smoothed),0.19366015625000002
+2017,Hot daily lows,0.28600000000000003
+2017,Hot daily lows (smoothed),0.37418750000000001
+2018,Hot daily highs,0.221
+2018,Hot daily highs (smoothed),0.20541015625
+2018,Hot daily lows,0.55299999999999994
+2018,Hot daily lows (smoothed),0.37845703124999991
+2019,Hot daily highs,8.4000000000000005E-2
+2019,Hot daily highs (smoothed),0.22708984375000005
+2019,Hot daily lows,0.13800000000000001
+2019,Hot daily lows (smoothed),0.39849609374999995
+2020,Hot daily highs,0.314
+2020,Hot daily highs (smoothed),0.26509765625000004
+2020,Hot daily lows,0.442
+2020,Hot daily lows (smoothed),0.45333984374999997
+2021,Hot daily highs,0.40899999999999997
+2021,Hot daily highs (smoothed),0.29605468749999997
+2021,Hot daily lows,0.68099999999999994
+2021,Hot daily lows (smoothed),0.51033593750000006
+2022,Hot daily highs,0.28300000000000003
+2022,Hot daily highs (smoothed),0.30562499999999998
+2022,Hot daily lows,0.63900000000000001
+2022,Hot daily lows (smoothed),0.52706640625000001
+2023,Hot daily highs,0.215
+2023,Hot daily highs (smoothed),0.31107421875000002
+2023,Hot daily lows,0.32100000000000001
+2023,Hot daily lows (smoothed),0.51328906250000006
+2024,Hot daily highs,0.373
+2024,Hot daily highs (smoothed),0.32948828125000001
+2024,Hot daily lows,0.54200000000000004
+2024,Hot daily lows (smoothed),0.50821875000000005

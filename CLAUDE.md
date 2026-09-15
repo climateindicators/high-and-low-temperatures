@@ -10,8 +10,13 @@ file, it belongs here instead.
 ## Project Overview
 
 This repository is the **data and narrative pipeline for a single EPA climate
-indicator, High and Low Temperatures**. It takes EPA's published per-figure CSV downloads, in
-`data-raw/`, and turns them into two products:
+indicator, High and Low Temperatures**. `data-raw/` holds both EPA's published
+per-figure CSV downloads and four Excel workbooks obtained via a FOIA request
+(EPA's own internal working files behind the same figures). `R/build_data.R`
+reshapes whichever of the two is more current or complete per figure, not the
+CSVs uniformly: see that file's header comment and `data-raw/PROVENANCE.md`
+for exactly which file(s) back which output and why they were chosen. It
+turns these into two products:
 
 1. `data/` for tidy long-format CSVs plus `data/meta.yml`, a machine-readable
    data dictionary
@@ -49,33 +54,42 @@ must produce byte-identical output.
 
 ## Architecture
 
-### One pipeline, one way
+### One pipeline, mixed sources per figure
 
-`data-raw/*.csv`, EPA's published per-figure downloads, go to `R/build_data.R`,
-which writes the tidy CSVs and `data/meta.yml`.
+`R/build_data.R` writes the tidy CSVs and `data/meta.yml` from whichever
+`data-raw/` file is more current or more complete for each figure:
 
 - **Figure 1** -> `data/high_and_low_temperatures_hot_area.csv`. Year x 4
   series (long): `Hot daily highs`, `Hot daily lows`, and their 9-point
-  binomial-smoothed counterparts. 1910-2023. Share of the contiguous 48
-  states' land area, as a decimal fraction. On EPA's published page.
+  binomial-smoothed counterparts. Source: the FOIA workbook (1910-2024,
+  revised vs. EPA's published 1910-2023 CSV). Share of the contiguous 48
+  states' land area, as a decimal fraction.
 - **Figure 2** -> `data/high_and_low_temperatures_cold_area.csv`. Year x 4
   series (long): `Cold Highs`, `Cold Lows`, and their 9-point
-  binomial-smoothed counterparts (`9-pt High`, `9-pt Low`). 1911-2024. Share
-  of the contiguous 48 states' land area, as a decimal fraction. On EPA's
-  published page.
+  binomial-smoothed counterparts (`9-pt High`, `9-pt Low`). Source: the FOIA
+  workbook (1911-2024; matches the published CSV to floating-point noise, used
+  for a consistent source rather than a revision). Share of the contiguous 48
+  states' land area, as a decimal fraction.
 - **Figure 3** -> `data/high_and_low_temperatures_hot_days_change.csv`. One
-  row per station (1066 stations): `state`, `lat`, `long`, `value` = change in
-  days per year above the local 95th-percentile threshold, 1948-2023. On
-  EPA's published page. One source row is wholly blank (EPA's own file, see
-  `data-raw/PROVENANCE.md`) and is carried through unchanged.
+  row per station (1065 stations): `station` (blank where unmatched), `state`,
+  `lat`, `long`, `value` = change in days per year above the local
+  95th-percentile threshold, `p_value`, `trend` (`increase`/`decrease`/`none`/
+  blank), 1948-2023. Source: EPA's published CSV for station coverage (the
+  FOIA workbook's own map sheet turns out to cover fewer stations), joined
+  with the workbook's regression p-values by state+coordinates; 18 stations
+  get no p-value (13 outside the workbook's smaller network, 5 more with an
+  ambiguous coordinate in EPA's own CSV). See `data-raw/PROVENANCE.md`.
 - **Figure 4** -> `data/high_and_low_temperatures_cold_days_change.csv`. One
-  row per station (1052 stations): `state`, `lat`, `long`, `value` = change in
-  days per year below the local 5th-percentile threshold, 1948-2023. On EPA's
-  published page.
+  row per station (1052 stations, all matched): `station`, `state`, `lat`,
+  `long`, `value` = change in days per year below the local 5th-percentile
+  threshold, `p_value`, `trend`, 1948-2023. Source: the FOIA workbook's map
+  sheet and regression output, joined by station ID (same network on both
+  sides).
 - **Figure 5** -> `data/high_and_low_temperatures_record_highs_lows.csv`.
   Decade x 2 series (long), `High`/`Low`: share of that decade's daily
   temperature records that were record highs or record lows, as a percent
-  (record lows negative). 1950s-2000s. On EPA's published page.
+  (record lows negative). Source: the FOIA workbook, full decimal precision
+  rather than the published CSV's rounded `%` strings. 1950s-2000s.
 
 `data/meta.yml` is generated, never hand-edited. It is assembled inside
 `R/build_data.R` from each source file's own five-line preamble, so figure
