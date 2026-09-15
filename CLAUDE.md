@@ -37,7 +37,7 @@ Source of the indicator, and the canonical reference for any wording question:
 ## Common Commands
 
 ```sh
-Rscript R/build_data.R      # data-raw/*.csv -> data/*.csv + data/meta.yml
+Rscript R/build_data.R      # data-raw/*.csv, data-raw/*.xlsx -> data/*.csv + data/meta.yml
 Rscript tests/test-data.R   # regression checks on the generated data
 ```
 
@@ -122,6 +122,10 @@ pointed at epa.gov; add site-internal links in their place.
   `split_value_flag()` helpers. It sniffs each file's encoding rather than
   assuming: most are windows-1252, some are UTF-8 with a BOM, and assuming the
   wrong one mojibakes silently instead of erroring.
+- `epa_xlsx.R` is the reader for the FOIA workbooks: every sheet's header row
+  sits at a different offset, so the caller names the sheet and how many rows
+  to skip rather than this file assuming one. Every column comes back as
+  character, same reasoning as `epa_csv.R`.
 - `write_stable.R` holds byte-stable CSV/YAML/lines writers plus
   `assert_clean_output()` and `file_sha256()`.
 
