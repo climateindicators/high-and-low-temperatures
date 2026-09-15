@@ -1,0 +1,135 @@
+indicator:
+  name: High and Low Temperatures
+  slug: high-and-low-temperatures
+  publisher: U.S. Environmental Protection Agency
+  source_page: https://19january2025snapshot.epa.gov/climate-indicators/climate-change-indicators-high-and-low-temperatures/index.html
+  technical_documentation: https://19january2025snapshot.epa.gov/system/files/documents/2024-06/high-low-temps_documentation.pdf
+  rights: Public domain, work of the U.S. Government (17 U.S.C. 105)
+datasets:
+- file: high_and_low_temperatures_hot_area.csv
+  figure: Figure 1
+  figure_title: Figure 1. Area of the Contiguous 48 States with Unusually Hot Summer
+    Temperatures, 1910-2023
+  source_file: high-low-temps_fig-1.csv
+  source_sha256: d87afc01514b2c0f614df72ee9bbd18e97820b47e626dbbf1e03064a676dcbc3
+  source_encoding: UTF-8
+  data_source: NOAA, 2024
+  web_update: June 2024
+  unit: Percent of land area
+  rows: 456
+  columns:
+  - name: year
+    type: integer
+    description: Calendar year.
+  - name: series
+    type: string
+    description: 'Which hot-extreme metric this row measures: ''Hot daily highs''/''Hot
+      daily lows'' are EPA''s annual values, and ''Hot daily highs (smoothed)''/''Hot
+      daily lows (smoothed)'' are EPA''s 9-point binomial smooth of the same series.'
+  - name: value
+    type: number
+    description: Share of the contiguous 48 states' land area, as a decimal fraction
+      (e.g. 0.066 = 6.6%), that experienced unusually hot daily high or low temperatures
+      that year, per the series column.
+- file: high_and_low_temperatures_cold_area.csv
+  figure: Figure 2
+  figure_title: Figure 2. Area of the Contiguous 48 States with Unusually Cold Winter
+    Temperatures, 1911-2024
+  source_file: high-low-temps_fig-2.csv
+  source_sha256: b8d904ea6c9963e020edc9a981c9ae9577a61f84709d9fd84f3c7b4fcddb5d98
+  source_encoding: UTF-8
+  data_source: NOAA, 2024
+  web_update: June 2024
+  unit: Percent of land area
+  rows: 456
+  columns:
+  - name: year
+    type: integer
+    description: Calendar year.
+  - name: series
+    type: string
+    description: 'Which cold-extreme metric this row measures: ''Cold Highs''/''Cold
+      Lows'' are EPA''s annual values, and ''9-pt High''/''9-pt Low'' are EPA''s 9-point
+      binomial smooth of the same series.'
+  - name: value
+    type: number
+    description: Share of the contiguous 48 states' land area, as a decimal fraction
+      (e.g. 0.035 = 3.5%), that experienced unusually cold daily high or low temperatures
+      that year, per the series column.
+- file: high_and_low_temperatures_hot_days_change.csv
+  figure: Figure 3
+  figure_title: Figure 3. Change in Unusually Hot Temperatures in the Contiguous 48
+    States, 1948-2023
+  source_file: high-low-temps_fig-3.csv
+  source_sha256: ca109eb179f90a24db4e6c55cd3bb7cfdbae3877da3645a643ecc948523ae0e1
+  source_encoding: UTF-8
+  data_source: NOAA, 2024
+  web_update: June 2024
+  unit: Change in number of days hotter than 95th percentile
+  rows: 1066
+  columns:
+  - name: state
+    type: string
+    description: Two-letter U.S. state abbreviation for the reporting station.
+  - name: lat
+    type: number
+    description: Station latitude, decimal degrees.
+  - name: long
+    type: number
+    description: Station longitude, decimal degrees.
+  - name: value
+    type: number
+    description: Change in the number of days per year with a maximum temperature
+      above the station's local 95th-percentile threshold, comparing the start and
+      end of the 1948-2023 record (positive = more unusually hot days).
+- file: high_and_low_temperatures_cold_days_change.csv
+  figure: Figure 4
+  figure_title: Figure 4. Change in Unusually Cold Temperatures in the Contiguous
+    48 States, 1948-2023
+  source_file: high-low-temps_fig-4.csv
+  source_sha256: 5aa136e5b3d34738196ccc318938d233fecd1356522a5c67292ec53bab60e826
+  source_encoding: UTF-8
+  data_source: NOAA, 2024
+  web_update: June 2024
+  unit: Change in number of days colder than 5th percentile
+  rows: 1052
+  columns:
+  - name: state
+    type: string
+    description: Two-letter U.S. state abbreviation for the reporting station.
+  - name: lat
+    type: number
+    description: Station latitude, decimal degrees.
+  - name: long
+    type: number
+    description: Station longitude, decimal degrees.
+  - name: value
+    type: number
+    description: Change in the number of days per year with a minimum temperature
+      below the station's local 5th-percentile threshold, comparing the start and
+      end of the 1948-2023 record (positive = more unusually cold days).
+- file: high_and_low_temperatures_record_highs_lows.csv
+  figure: Figure 5
+  figure_title: Figure 5. Record Daily High and Low Temperatures in the Contiguous
+    48 States, 1950-2009
+  source_file: high-low-temps_fig-5.csv
+  source_sha256: 9731a69dd9cca72d712e2cba92c06d6920c4ce0cefd8e58d37ea621bc6205019
+  source_encoding: UTF-8
+  data_source: Meehl et al., 2009
+  web_update: April 2021
+  unit: Percent of daily records
+  rows: 12
+  columns:
+  - name: decade
+    type: string
+    description: Decade label, e.g. '1950s', spanning 1950-2009.
+  - name: series
+    type: string
+    description: '''High'' or ''Low'': whether this row counts record daily highs
+      or record daily lows set that decade.'
+  - name: value
+    type: number
+    description: Share of that decade's daily temperature records that were record
+      highs (series = 'High') or record lows (series = 'Low'), as a percent (e.g.
+      52.07 = 52.07%). Record-low shares are negative so the two series plot on opposite
+      sides of zero.

@@ -57,12 +57,53 @@ for (f in list.files("data", pattern = "[.](csv|yml)$", full.names = TRUE)) {
 }
 
 cat("\nValue snapshots\n")
-# TODO value snapshots: pin the actual numbers for each output file, so a
-# legitimate data update fails here and says exactly what changed. For each
-# dataset check at least: row count, the first and last row in source order,
-# and the minimum and maximum of each value column. Compare as strings where
-# the source precision matters. See the source CSV in data-raw/ for the values.
-check("value snapshots have been written", FALSE)
+
+# Pins row count, first/last row (in source order), and min/max of `value` for
+# each output file, so a legitimate data update fails here loudly rather than
+# passing silently. Rows are compared as strings, since the source carries up
+# to 10 significant digits that must survive byte for byte; min/max of `value`
+# are compared numerically since they are derived, not stored, values.
+snap <- function(file, n, first, last, min_value, max_value) {
+  df <- rd(file)
+  check(sprintf("%s: row count is %d", file, n), nrow(df) == n)
+  check(sprintf("%s: first row matches snapshot", file),
+        identical(as.list(df[1, ]), first))
+  check(sprintf("%s: last row matches snapshot", file),
+        identical(as.list(df[nrow(df), ]), last))
+  # data-raw/high-low-temps_fig-3.csv has one wholly blank data row (line 1060:
+  # ",,,", EPA's own file, not introduced here); na.rm drops it from min/max
+  # the same way it is faithfully carried through as an empty row in the output.
+  v <- suppressWarnings(as.numeric(df$value))
+  check(sprintf("%s: min(value) is %s", file, min_value),
+        isTRUE(all.equal(min(v, na.rm = TRUE), min_value)))
+  check(sprintf("%s: max(value) is %s", file, max_value),
+        isTRUE(all.equal(max(v, na.rm = TRUE), max_value)))
+}
+
+snap("high_and_low_temperatures_hot_area.csv", 456L,
+     first = list(year = "1910", series = "Hot daily highs", value = "0.066"),
+     last  = list(year = "2023", series = "Hot daily lows (smoothed)", value = "0.444671875"),
+     min_value = 0, max_value = 0.693)
+
+snap("high_and_low_temperatures_cold_area.csv", 456L,
+     first = list(year = "1911", series = "Cold Highs", value = "0.035"),
+     last  = list(year = "2024", series = "9-pt Low", value = "0"),
+     min_value = 0, max_value = 0.816)
+
+snap("high_and_low_temperatures_hot_days_change.csv", 1066L,
+     first = list(state = "AL", lat = "31.0583", long = "-87.055", value = "-14.34591747"),
+     last  = list(state = "MN", lat = "46.9006", long = "-95.0678", value = "0"),
+     min_value = -45.36519481, max_value = 47.28247557)
+
+snap("high_and_low_temperatures_cold_days_change.csv", 1052L,
+     first = list(state = "AL", lat = "31.0583", long = "-87.055", value = "0"),
+     last  = list(state = "MN", lat = "46.8997", long = "-95.0669", value = "-7.293506494"),
+     min_value = -51.28519481, max_value = 20.63379121)
+
+snap("high_and_low_temperatures_record_highs_lows.csv", 12L,
+     first = list(decade = "1950s", series = "High", value = "52.07"),
+     last  = list(decade = "2000s", series = "Low", value = "-32.84"),
+     min_value = -56.45, max_value = 67.16)
 
 cat("\n")
 if (length(failures)) {
