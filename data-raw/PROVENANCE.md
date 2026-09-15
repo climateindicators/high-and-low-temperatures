@@ -48,3 +48,23 @@ Technical documentation: <https://19january2025snapshot.epa.gov/system/files/doc
   encoding UTF-8, 6 data rows, columns: `Decade`, `High %`, `Low %`  \
   title: Figure 5. Record Daily High and Low Temperatures in the Contiguous 48 States, 1950-2009  \
   data source: Meehl et al., 2009; web update: April 2021; units: Percent of daily records
+
+Note: `high-low-temps_fig-3.csv` has one wholly blank data row (line 1060 of
+the file, `,,,`) in EPA's own published download. It is not introduced by this
+build; `R/build_data.R` carries it through unchanged and `tests/test-data.R`
+excludes it from the min/max value snapshot with `na.rm = TRUE`.
+
+## Underlying source workbooks (FOIA)
+
+The following four Excel workbooks were obtained separately via a FOIA request
+and were already present in this directory before this repository was built.
+They are EPA's own working files behind Figures 1-5 (station-level data,
+methods notes, and the R output EPA's analysts used to produce the published
+CSVs above), not a download from the indicator page, and `R/build_data.R` does
+not read them: the published CSVs above are EPA's public, machine-readable
+release of the same figures and are what this build reshapes.
+
+- `high-low-temps_figure-1_04-28-24.xlsx`
+- `high-low-temps_figure-2_04-03-24.xlsx`
+- `high-low-temps_figures-3 and 4_04-15-24.xlsx`
+- `high-low-temps_figure-5_04-15-24.xlsx`

@@ -54,10 +54,28 @@ must produce byte-identical output.
 `data-raw/*.csv`, EPA's published per-figure downloads, go to `R/build_data.R`,
 which writes the tidy CSVs and `data/meta.yml`.
 
-TODO: list each figure this build produces, one bullet each, naming the output
-file, the series it carries, its coverage, its units, and whether it appears on
-EPA's published indicator page. Any figure that does not appear there must say
-so here and in `data-raw/PROVENANCE.md`.
+- **Figure 1** -> `data/high_and_low_temperatures_hot_area.csv`. Year x 4
+  series (long): `Hot daily highs`, `Hot daily lows`, and their 9-point
+  binomial-smoothed counterparts. 1910-2023. Share of the contiguous 48
+  states' land area, as a decimal fraction. On EPA's published page.
+- **Figure 2** -> `data/high_and_low_temperatures_cold_area.csv`. Year x 4
+  series (long): `Cold Highs`, `Cold Lows`, and their 9-point
+  binomial-smoothed counterparts (`9-pt High`, `9-pt Low`). 1911-2024. Share
+  of the contiguous 48 states' land area, as a decimal fraction. On EPA's
+  published page.
+- **Figure 3** -> `data/high_and_low_temperatures_hot_days_change.csv`. One
+  row per station (1066 stations): `state`, `lat`, `long`, `value` = change in
+  days per year above the local 95th-percentile threshold, 1948-2023. On
+  EPA's published page. One source row is wholly blank (EPA's own file, see
+  `data-raw/PROVENANCE.md`) and is carried through unchanged.
+- **Figure 4** -> `data/high_and_low_temperatures_cold_days_change.csv`. One
+  row per station (1052 stations): `state`, `lat`, `long`, `value` = change in
+  days per year below the local 5th-percentile threshold, 1948-2023. On EPA's
+  published page.
+- **Figure 5** -> `data/high_and_low_temperatures_record_highs_lows.csv`.
+  Decade x 2 series (long), `High`/`Low`: share of that decade's daily
+  temperature records that were record highs or record lows, as a percent
+  (record lows negative). 1950s-2000s. On EPA's published page.
 
 `data/meta.yml` is generated, never hand-edited. It is assembled inside
 `R/build_data.R` from each source file's own five-line preamble, so figure
